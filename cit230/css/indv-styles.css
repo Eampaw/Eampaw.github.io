@@ -1,0 +1,15 @@
+nav{
+    background-color:mediumpurple;
+    
+}
+nav ol{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ol li{
+    color: white
+}
+nav ol li a{
+    color:white
+}
