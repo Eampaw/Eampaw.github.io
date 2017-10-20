@@ -1,11 +1,17 @@
 h1{
-    color: crimson;
+    color: crimson; font: georgia; font-size: 50px; font-weight: 300;text-shadow:3px 6px 2px #777777;
 }
-
+p{
+    font: helvetica; font-style: italic; color: deepskyblue; 
+}
 nav{
-    background-color:mediumpurple;
+    background-color:mediumpurple; 
+
     
 }
+
+nav a:hover{font-weight:bold; color:gold;}
+
 nav ol{
     display: flex;
     justify-content: space-around;
@@ -16,4 +22,11 @@ nav ol li{
 }
 nav ol li a{
     color:white
+}
+body{
+    background-color:blueviolet; background-image:url("http://media.gettyimages.com/photos/dramatic-soccer-stadium-panorama-picture-id494994932"); 
+}
+
+img{
+    width:1400 
 }
