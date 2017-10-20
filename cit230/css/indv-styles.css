@@ -30,3 +30,6 @@ body{
 img{
     width:1400 
 }
+.nbabackground{
+    background-image: url("http://a.espncdn.com/photo/2016/0602/nba_0602nbaplayoffs_1296x518.jpeg")
+}
