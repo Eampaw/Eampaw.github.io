@@ -4,10 +4,9 @@ h1{
 p{
     font: helvetica; font-style: italic; color: deepskyblue; 
 }
-nav{
-    ; 
-;
-    
+ a{
+	
+   color: white
 }
 
 nav a:hover{font-weight:bold; color:gold;}
@@ -20,16 +19,12 @@ nav ol{
 nav ol li{
     color: white;
 }
-nav ol li a{
-    color:white;
-}
+
+
 body{
-    background-color:blueviolet; background-image:url("http://media.gettyimages.com/photos/dramatic-soccer-stadium-panorama-picture-id494994932"); 
+    background-color:blueviolet; background-image:url("http://media.gettyimages.com/photos/dramatic-soccer-stadium-panorama-picture-id494994932");
 }
 
-img{
-    width:1400 
-}
 .nbabackground{
     background-image: url("http://a.espncdn.com/photo/2016/0602/nba_0602nbaplayoffs_1296x518.jpeg");
 }
