@@ -31,11 +31,12 @@ img{
     width:1400 
 }
 .nbabackground{
-    background-image: url("http://a.espncdn.com/photo/2016/0602/nba_0602nbaplayoffs_1296x518.jpeg")
+    background-image: url("http://a.espncdn.com/photo/2016/0602/nba_0602nbaplayoffs_1296x518.jpeg");
+    background-repeat: no-repeat;
 }
 .nflbackground{
-    background-image: url("https://thegolfnewsnet.com/wp-content/uploads/2015/09/picks-slide-1.jpg")
+    background-image: url("https://thegolfnewsnet.com/wp-content/uploads/2015/09/picks-slide-1.jpg"); background-repeat: no-repeat;
 }
 .soccerbackground{
-    background-image: url("http://media.gettyimages.com/photos/soccer-game-moment-with-goalkeeper-picture-id504922268?s=612x612")
+    background-image: url("http://media.gettyimages.com/photos/soccer-game-moment-with-goalkeeper-picture-id504922268?s=612x612"); background-repeat: no-repeat;
 }
