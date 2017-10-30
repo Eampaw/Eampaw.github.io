@@ -8,10 +8,12 @@ p{
 	
    color: white
 }
-
+nav{
+	background-color: bisque;
+}
 nav a:hover{font-weight:bold; color:gold;}
 
-nav ol{
+nav ol,nav ul{
     display: flex;
     justify-content: space-around;
     
@@ -24,6 +26,9 @@ nav ol li{
 body{
     background-color:blueviolet; background-image:url("http://media.gettyimages.com/photos/dramatic-soccer-stadium-panorama-picture-id494994932");
 }
+main{
+	background-color: darkgreen;
+}
 
 .nbabackground{
     background-image: url("http://a.espncdn.com/photo/2016/0602/nba_0602nbaplayoffs_1296x518.jpeg");
@@ -34,18 +39,25 @@ body{
 .soccerbackground{
     background-image: url("http://media.gettyimages.com/photos/soccer-game-moment-with-goalkeeper-picture-id504922268?s=612x612");
 }
-.container
-.what-we-do
-.who-we-are{
-	border: solid;
-}
-.what-we-do-, .who-we-are {
-	width: 400px
-}
-.container {
+
+.flex{
 	display;flex;
 	padding: 10px;
 	height: 400px;
 	justify-content:space-around;
 }
+#what-we-do{
+	background-color: darkolivegreen
 }
+#who-we-are{
+	background-color: darkolivegreen
+}
+footer{
+	background-color: bisque;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 10%;
+	width: 100%
+}
+
