@@ -34,3 +34,18 @@ body{
 .soccerbackground{
     background-image: url("http://media.gettyimages.com/photos/soccer-game-moment-with-goalkeeper-picture-id504922268?s=612x612");
 }
+.container,
+.what-we-do
+.who-we-are{
+	border: solid;
+}
+.what-we-d-, .who-we-are {
+	width: 400px
+}
+.container {
+	display;flex;
+	padding: 10px;
+	height: 400px;
+	justify-content:space-around;
+}
+}
