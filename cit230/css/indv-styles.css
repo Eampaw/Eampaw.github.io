@@ -41,7 +41,7 @@ main{
 }
 
 .flex{
-	display;flex;
+	display:flex;
 	padding: 10px;
 	height: 400px;
 	justify-content:space-around;
