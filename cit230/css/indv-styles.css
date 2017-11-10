@@ -1,3 +1,7 @@
+html{
+	width:100%;
+	height:100%;
+}
 h1 {
 	color: crimson;
 	font: georgia;
@@ -18,7 +22,8 @@ a {
 }
 
 nav {
-	background-color: bisque;
+	background-color: rgba(135, 206, 235, .5);
+	padding: 10px;
 }
 
 nav a:hover {
@@ -34,29 +39,42 @@ nav ul {
 }
 
 nav ol li {
-	color: white;
+	color: black;
 }
 
 
 body {
-	background-color: blueviolet;
 	background-image: url("http://media.gettyimages.com/photos/dramatic-soccer-stadium-panorama-picture-id494994932");
+	background-color: rgba(138, 43, 226, .2);
+	width: 100%;
+	height:100%;
 }
 
 main {
-	background-color: darkgreen;
+	max-width: 768px;
+	margin: 0 auto;
+	padding:10px;
+	background-color: rgba(138, 43, 226, .2);
+	min-height: 600px;
 }
 
 .nbabackground {
 	background-image: url("http://a.espncdn.com/photo/2016/0602/nba_0602nbaplayoffs_1296x518.jpeg");
+	background-repeat: no-repeat;
+	background-size: auto 750px;
+	 
 }
 
 .nflbackground {
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-image: url("https://thegolfnewsnet.com/wp-content/uploads/2015/09/picks-slide-1.jpg");
 }
 
 .soccerbackground {
 	background-image: url("http://media.gettyimages.com/photos/soccer-game-moment-with-goalkeeper-picture-id504922268?s=612x612");
+	background-repeat: no-repeat
+	background-size: cover;
 }
 
 .flex {
@@ -74,11 +92,24 @@ main {
 	background-color: darkolivegreen;
 }
 
-footer {
-	background-color: bisque;
+ footer {
+	 padding: 10px;
+	background-color: rgba(255, 228, 196, .7);
 	display: flex;
 	justify-content: space-between;
-	position: fixed;
-	bottom: 10%;
-	width: 100%
+	
+} 
+
+@media screen and (max-width:587px) {
+	main { 
+		background-color: aquamarine;
+	}
+	nav ol {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	nav ol li {
+		list-style-type: none
+	}
 }
