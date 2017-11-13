@@ -46,7 +46,7 @@ nav ol li {
 
 body {
 	background-image: url("http://media.gettyimages.com/photos/dramatic-soccer-stadium-panorama-picture-id494994932");
-	background-color: rgba(138, 43, 226, .2);
+	background-color: rgba(138, 43, 226, .5);
 	width: 100%;
 	height: 100%;
 }
@@ -55,7 +55,7 @@ main {
 	max-width: 768px;
 	margin: 0 auto;
 	padding: 10px;
-	background-color: rgba(138, 43, 226, .2);
+	background-color: rgba(138, 43, 226, .5);
 	min-height: 600px;
 }
 
