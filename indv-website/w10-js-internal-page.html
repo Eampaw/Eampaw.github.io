@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>index.html</title>
+    <link rel="stylesheet" href="../cit230/css/indv-styles.css">
+</head>
+
+<body class="nbabackground">
+<nav>
+    <ul>
+    <li><a href="../index.html">HomePage</a></li>
+         <li><a href="schedules.html">Schedules</a></li>
+  <li><a href="scores.html">scores</a></li>
+  <li><a href="news.html">News/Stats</a></li>
+  <li><a href="artworks.html">Artwork</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="cit230-links.html"> CIT230-links (Link)</a></li>
+    </ul>
+    </nav>
+<main>
+  <p id="hoverme" onmouseover="hover()">Westbrook's win this year was no shocker due to the fierce nature of his feud with final mvp durant.(please hover here)</p>
+   <p id="change"> The NBA has produced world class athletes during the years. These are the best of the best in each year.</p>
+    <button type="button" onclick="changeContent()">Content!</button>
+    <p id="demo">This is all the news AND stats you want, need and can't live without</p>
+    <button type="button" onclick="myFunction()">Click me!</button>
+    <table border="1">
+        <caption>
+    LEAGUE MVPS FOR THE LAST 5 YEARS
+</caption>
+<thead>
+    <tr>
+        <th colspan="5">LEAGUE MVPS AND THEIR 
+            VOTING TOTALS </th>
+    </tr>
+        </thead>
+    <tbody>
+
+   
+    <tr>
+        <td>PLAYER NAMES</td>
+        <th>VOTING TOTALS</th>
+        <th>TEAMS</th>
+        <th>CITY</th>
+        <th>STATE</th>
+        
+    </tr>
+    <tr>
+    <td>RUSSEL WESTBROOK</td>
+    
+
+    <td>69 votes</td>
+    <td>Oklahoma Thunders</td>
+    <td>Oklahoma City</td>
+    <td>Oklahoma</td>    
+    </tr>
+<tr>
+    <td>Stephen Curry</td>
+    <td>131 votes</td>
+    <td>Golden State Warriors</td>
+    <td>Oakland</td>
+    <td>Carlifornia</td>
+    </tr>
+<tr>
+    <td>Stephen Curry</td>
+    <td>N/A</td>
+    <td>Golden State Warriors</td>
+    <td>Oakland</td>
+    <td>Carlifornia</td>
+    </tr>
+ <tr>
+    <td>Kevin Durant</td>
+    <td>N/A</td>
+    <td>Oklahoma City Thunder</td>
+    <td>Oklahoma City</td>
+    <td>Oklahoma</td>
+    </tr>
+<tr>
+    <td>Lebron James</td>
+    <td>N/A</td>
+    <td>MiamiHeat</td>
+    <td>Miami</td>
+    <td>Florida</td>
+    </tr>
+        
+    </tbody>
+<tfoot>
+  
+</tfoot>
+</table>
+</main>
+<script>
+	function myFunction(){
+		document.getElementById('demo').style.color='blue';
+	}
+	
+function changeContent(){
+	document.getElementById('change').innerHTML = " The Best of the Best";
+}
+function hover(){
+	document.getElementById('hoverme').style.fontSize='2em';
+}
+	</script>
+</body>
+</html>

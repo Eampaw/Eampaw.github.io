@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>index.html</title>
+    <link rel="stylesheet" href="../cit230/css/indv-styles.css">
+</head>
+
+<body class="nflbackground">
+<nav>
+    <ul>
+    <li><a href="../index.html">HomePage</a></li>
+         <li><a href="schedules.html">Schedules</a></li>
+  <li><a href="scores.html">scores</a></li>
+  <li><a href="news.html">News/Stats</a></li>
+  <li><a href="artworks.html">Artwork</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="cit230-links.html"> CIT230-links (Link)</a></li>
+    </ul>
+    </nav>
+    <main>
+    <p id="toggleFade">This is all the news you want, need and can't live without(click on me and i would disappear)</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="fadebutton">Click to fade in/out boxes</button>
+   <ul>
+  <li>Matt Ryan
+    <ul>
+      <li>Atlanta Falcons
+        <ul>
+          <li>2016 most valuable player
+            <ul>
+            <li>Atlanta
+            <ul>
+            <li> Georgia   
+        </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+ </li>      
+</ul>
+</ul>  
+<ul>
+  <li> Cam Newton
+      <ul>
+      <li>Carolina panthers
+        <ul>
+          <li>2015 most valuable player
+          <ul> 
+            <li> Charlotte
+            <ul>
+            <li>North Carolina    
+        </li>
+        </ul>
+      </li>
+    </ul>
+  </li>         
+</ul> 
+</li>
+</ul>      
+<ul>
+  <li> Aaron Rodgers
+      <ul>
+      <li>Green Bay Packers
+        <ul>
+          <li>2014 most valuable player
+            <ul>
+              <li>Green Bay
+        <ul>
+        <li>Wisconsin          
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</li> 
+</ul>
+</li>      
+</ul>
+<ul>
+  <li> Peyton Manning
+      <ul>
+      <li>Denver Broncos
+        <ul>
+          <li>2013 most valuable player
+          <ul>
+         <li>Denver
+        <ul>
+        <li>Colorado 
+        </ul>    
+        </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</li>          
+</ul>
+<ul>
+  <li> Adrian Peterson
+      <ul>
+      <li>Minnesota Vikings
+        <ul>
+          <li>2012 most valuable player
+        <ul>
+         <li>Minneapolis
+        <ul>
+        <li>Minnesota
+        </ul>
+        </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</li>          
+</ul> 
+</ul> 
+</main>
+<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function(){
+					  $("#hide").click(function(){
+						$("p").hide();
+	});
+	$("#show").click(function(){
+		$("p").show();
+	});
+	});
+	$(document).ready(function(){
+					  $("#fadebutton").click(function(){
+						$("#toggleFade").fadeToggle(2000);
+					  });
+	});
+	</script>
+</body>
+</html>
+    
