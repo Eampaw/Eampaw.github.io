@@ -85,9 +85,12 @@
         <main class="flex-item">
             <!--<h3>(the middle column)</h3>-->
             <p style=font-weight:bold;color:yellow;font-size:24px;>Do you love <b>rocks </b> do you?</p>
-            <figure><img src="images/rock-love.jpg" alt="photo of a person looking off a ship" title="enjoying computing and cruising while looking at rocks">
+            <figure on drop="drop(event)"
+            ondragover="allowDrop(event)"><img src="images/rock-love.jpg" alt="photo of a person looking off a ship" title="enjoying computing and cruising while looking at rocks" draggable="true" ondragstart="drag(event)" id="drag1">
+         
             <!--                <figcaption class="firstsentence">Rocks are great to view from a ship!</figcaption>-->
             </figure>
+            <p class="firstsentence">Rocks are great to view from a ship</p>
             
             <br>
         </main>
@@ -97,7 +100,9 @@
             <p><a href="http://rocks-for-nerds.html">Rocks for nerds</a></p>
             <p><a href="http://rocks-for-gurus.html">Rocks for gurus</a></p>
             <p><a href="http://rocks-for-all.html">Rocks for all</a></p>
-
+			
+        	<div id="div2" ondrop="drop(event)"
+        	ondragover="allowDrop(event)"></div>
 
         </aside>
     </div>
