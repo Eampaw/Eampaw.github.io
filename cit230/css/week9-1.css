@@ -55,6 +55,9 @@
             aside{
 				width:33%; background-color: blue;
 }  
+.flex-container{
+    display: flex;
+}
 
             footer {clear:left;position:fixed;text-align:center;width:100%;bottom:0px;}
 
