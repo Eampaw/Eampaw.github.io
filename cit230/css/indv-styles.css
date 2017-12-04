@@ -1,128 +1,131 @@
 html {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
-ul, li {
-	list-style-type: none;
+
+ul,
+li {
+    list-style-type: none;
 }
+
 h1 {
-	color: crimson;
-	font: georgia;
-	font-size: 50px;
-	font-weight: 300;
-	text-shadow: 3px 6px 2px #777777;
+    color: crimson;
+    font: georgia;
+    font-size: 50px;
+    font-weight: 300;
+    text-shadow: 3px 6px 2px #777777;
 }
 
 p {
-	font: helvetica;
-	font-style: italic;
-	color: deepskyblue;
-	font: 50%;
+    font: helvetica;
+    font-style: italic;
+    color: deepskyblue;
+    font: 50%;
 }
 
 a {
 
-	color: white;
+    color: white;
 }
 
 nav {
-	background-color: rgba(135, 206, 235, .5);
-	padding: 10px;
+    background-color: rgba(135, 206, 235, .5);
+    padding: 10px;
     text-shadow: 1px 1px 2px black;
 }
 
 nav a:hover {
-	font-weight: bold;
-	color: gold;
+    font-weight: bold;
+    color: gold;
 }
 
 nav ol,
 nav ul {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 
 }
 
 nav ol li {
-	color: black;
+    color: black;
 }
 
 
 body {
-	margin: 0px;
-	background-image: url("http://img.fifa.com/mm/photo/tournament/competition/02/92/01/37/2920137_big-lnd.jpg");
-/*	background-color: rgba(138, 43, 226, .8);*/
-	width: 100%;
-	height: 100%;
-	background-size: cover;
+    margin: 0px;
+    background-image: url("http://img.fifa.com/mm/photo/tournament/competition/02/92/01/37/2920137_big-lnd.jpg");
+    /*	background-color: rgba(138, 43, 226, .8);*/
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 main {
-	max-width: 768px;
-	margin: 0 auto;
-	padding: 10px;
-	background-color: rgba(138, 43, 226, .9);
-	min-height: 490px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(138, 43, 226, .9);
+    min-height: 490px;
 }
 
 .nbabackground {
-	background-image: url("https://media.istockphoto.com/photos/staples-center-in-downtown-los-angeles-picture-id458100821?s=2048x2048");
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-image: url("https://media.istockphoto.com/photos/staples-center-in-downtown-los-angeles-picture-id458100821?s=2048x2048");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .nflbackground {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("https://media.istockphoto.com/photos/bank-stadium-home-of-the-minnesota-vikings-in-minneapolis-picture-id595767330?s=2048x2048");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.istockphoto.com/photos/bank-stadium-home-of-the-minnesota-vikings-in-minneapolis-picture-id595767330?s=2048x2048");
 }
 
 .soccerbackground {
-	background-image: url("http://img.fifa.com/mm/photo/tournament/competition/02/92/13/82/2921382_big-lnd.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-image: url("http://img.fifa.com/mm/photo/tournament/competition/02/92/13/82/2921382_big-lnd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .flex {
-	display: flex;
-	padding: 10px;
-	height: 400px;
-	justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    height: 400px;
+    justify-content: space-around;
 }
 
 #what-we-do {
-	background-color: darkolivegreen;
+    background-color: darkolivegreen;
 }
 
 #who-we-are {
-	background-color: darkolivegreen;
+    background-color: darkolivegreen;
 }
 
 footer {
-	padding: 10px;
-	background-color: rgba(255, 228, 196, .7);
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-between; 
+    padding: 10px;
+    background-color: rgba(255, 228, 196, .7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 @media screen and (max-width:587px) {
-	main {
-		background-color: aquamarine;
-	}
-	nav ol {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-	}
-	nav ol li {
-		list-style-type: none;
-	}
-	footer {
-		flex-direction: column;
-	}
+    main {
+        background-color: aquamarine;
+    }
+    nav ol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ol li {
+        list-style-type: none;
+    }
+    footer {
+        flex-direction: column;
+    }
 }
